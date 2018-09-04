@@ -11,4 +11,5 @@ class App < Sinatra::Base
     @number = params[:number]
     @square = @number ** 2
     "#{@square}"
+  end
 end
